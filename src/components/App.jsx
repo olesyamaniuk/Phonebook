@@ -34,7 +34,7 @@ export default function App() {
   
   return (
     <div>
-      <h1>Phonebook</h1>
+      
       <ContactForm onAdd={addCont} />
       <SearchBox value={filter} onFilter={setFilter} />
       <ContactList contact={visibleContact} onDelete={deleteCont} />

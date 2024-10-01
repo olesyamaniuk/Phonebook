@@ -1,6 +1,7 @@
 import{Form, Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { nanoid } from 'nanoid'
+import css from "./ContactForm.module.css"
 
 const UserSchema = Yup.object().shape({
   name:Yup.string()
@@ -23,6 +24,8 @@ export default function ContactForm({onAdd}) {
     actions.resetForm();
   };
     return (
+      <div className={css.wrap}>
+        <h1>Phonebook</h1>
     <Formik
      initialValues={{
       name:"",
@@ -31,7 +34,7 @@ export default function ContactForm({onAdd}) {
     validationSchema={UserSchema}
     onSubmit={handleSubmit}>
     <Form >
-      <div >
+            <div >  
         <label htmlFor="nameId" >Name</label>
         <Field  name ="name" id={nameId} />
         <ErrorMessage
@@ -55,6 +58,6 @@ export default function ContactForm({onAdd}) {
     </Form>
 
     </Formik>
-       
+       </div>
      )
    }
