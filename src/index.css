@@ -1,13 +1,12 @@
 body {
-  padding: 100px;
+  padding: 30px;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: white;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+  background: url(/src/image/vintage-pink-telephone-composition.jpg) center /
+    cover no-repeat;
+  min-height: 100vh;
 }
 ul {
   list-style: none;

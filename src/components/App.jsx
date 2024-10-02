@@ -33,8 +33,7 @@ export default function App() {
   }, []);
   
   return (
-    <div>
-      
+    <div> 
       <ContactForm onAdd={addCont} />
       <SearchBox value={filter} onFilter={setFilter} />
       <ContactList contact={visibleContact} onDelete={deleteCont} />

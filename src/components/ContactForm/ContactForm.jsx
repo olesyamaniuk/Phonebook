@@ -1,6 +1,9 @@
 import{Form, Formik, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { nanoid } from 'nanoid'
+import phoneIcon from '../../image/phone-old-svgrepo-com.svg';
+import phoneBook from '../../image/contact-phonebook-support-svgrepo-com.svg';
+import addIcon from '../../image/add-svgrepo-com.svg';
 import css from "./ContactForm.module.css"
 
 const UserSchema = Yup.object().shape({
@@ -23,9 +26,11 @@ export default function ContactForm({onAdd}) {
     onAdd(newContId);
     actions.resetForm();
   };
-    return (
-      <div className={css.wrap}>
-        <h1>Phonebook</h1>
+  return (
+      <div>
+     
+      <h1 className={css.text}>Phonebook</h1>
+       <div className={css.wrap}>
     <Formik
      initialValues={{
       name:"",
@@ -33,31 +38,36 @@ export default function ContactForm({onAdd}) {
     }} 
     validationSchema={UserSchema}
     onSubmit={handleSubmit}>
-    <Form >
-            <div >  
-        <label htmlFor="nameId" >Name</label>
-        <Field  name ="name" id={nameId} />
-        <ErrorMessage
-            
-            name="name"
-            component="span"
-          />
+      <Form >
+       <div>  
+          <div className={css.infoo}>
+            <img src={phoneBook} alt="Phone Icon" className={css.icon} />
+            <label className={css.label} htmlFor="nameId" >Name</label>
+          </div>
+          <Field className={css.field} name ="name" id={nameId} />
+          <ErrorMessage
+              name="name"
+              component="span"
+            />
+          </div>
+          <div>
+            <div className={css.infoo}>
+              <img src={phoneIcon} alt="Phone Icon" className={css.icon} />
+              <label className={css.label} htmlFor="numberId" >Number</label>
+            </div>
+          <Field className={css.field} name ="number" id={numberId} />
+          <ErrorMessage
+              name="number"
+              component="span"
+            />
+          </div>
+          <div className={css.button}>
+              <img src={addIcon} alt="Phone Icon" className={css.addIcon} />
+              <button>Add Contact</button>
+          </div>
+         </Form>
+        </Formik>
       </div>
-
-      <div>
-        <label htmlFor="numberId" >Number</label>
-        <Field  name ="number" id={numberId} />
-        <ErrorMessage
-            
-            name="number"
-            component="span"
-          />
-      </div>
-     
-      <button >Add Contact</button>
-    </Form>
-
-    </Formik>
-       </div>
-     )
-   }
+   </div>
+  )
+}

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+<svg version="1.1" id="Layer_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"  width="800px" height="800px"
+	 viewBox="0 0 65 62" enable-background="new 0 0 65 62" xml:space="preserve">
+<title>Phone-old</title>
+<desc>Created with Sketch.</desc>
+<g id="Page-1" sketch:type="MSPage">
+	<g id="Phone-old" transform="translate(2.000000, 1.000000)" sketch:type="MSLayerGroup">
+		<path id="Shape_1_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" d="
+			M44.3,28.1c0.2-0.4,0.3-0.8,0.3-1.2c0-1.7-1.4-2.3-4.6-3.2V21c0-1.1-0.9-1-2-1s-2-0.1-2,1v2.9H26V21c0-1.1-0.9-1-2-1s-2-0.1-2,1
+			v2.7c-3.2,1-5,1.5-5,3.2c0,0.4,0.1,0.8,0.3,1.2C6.9,32.4-0.1,41.8-0.1,54c0,7.3,61.8,8.6,61.8,0C61.7,41.8,54.7,32.4,44.3,28.1
+			L44.3,28.1z"/>
+		<path id="Shape" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" d="M52.9,1.1
+			c0,0-8.5-1.1-21.9-1.1c0,0,0,0-0.1,0C17.5,0,8.8,1.1,8.8,1.1c-5.4,1.7-9,6.7-9,14.4C-0.2,19.8,3,21,11,21l0,0h0.1
+			c7.1,0,9.3-3.3,8.6-6.3c-0.1-0.6-1.2-2.3-1.5-2.6c0,0,0.6-3.1,12.8-3.1c12.1,0,12.6,3.1,12.6,3.1c-0.3,0.3-1.4,2-1.5,2.6
+			c-0.8,3,1.4,6.3,8.6,6.3h0.1l0,0c8,0,11.2-1.2,11.2-5.5C61.8,9.2,58.3,2.8,52.9,1.1L52.9,1.1z"/>
+		
+			<circle id="Oval" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="31" cy="43" r="13">
+		</circle>
+		
+			<circle id="Oval_1_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="31" cy="43" r="3">
+		</circle>
+		
+			<circle id="Oval_2_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="31" cy="35" r="1">
+		</circle>
+		
+			<circle id="Oval_3_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="31" cy="51" r="1">
+		</circle>
+		
+			<circle id="Oval_4_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="37" cy="37" r="1">
+		</circle>
+		
+			<circle id="Oval_5_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="25" cy="49" r="1">
+		</circle>
+		
+			<circle id="Oval_6_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="39" cy="43" r="1">
+		</circle>
+		
+			<circle id="Oval_7_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="23" cy="43" r="1">
+		</circle>
+		
+			<circle id="Oval_8_" sketch:type="MSShapeGroup" fill="none" stroke="#000" stroke-width="2" stroke-linejoin="round" cx="25" cy="37" r="1">
+		</circle>
+	</g>
+</g>
+</svg>

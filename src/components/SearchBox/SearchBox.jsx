@@ -1,8 +1,10 @@
-export default function SerchBox({value, onFilter}) {
+import css from "./SearchBox.module.css"
+
+export default function SerchBox({ value, onFilter }) {
     return (
-    <div>
-<p>Find contacts by name</p>
-<input type="text" value={value} onChange={e=>onFilter(e.target.value) }/>
-    </div>    
+        <div className={css.wrap}>
+            <p className={css.label}>Find contacts by name</p>
+            <input className={css.input} type="text" value={value} onChange={e=>onFilter(e.target.value) }/>
+        </div>    
      )
-   }
+}
