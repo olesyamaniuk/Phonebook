@@ -4,8 +4,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  background: url(/src/image/vintage-pink-telephone-composition.jpg) center /
-    cover no-repeat;
+  background: url(/src/image/vintage-pink-telephone-composition.jpg) right
+    center / cover no-repeat;
+
   min-height: 100vh;
 }
 ul {
