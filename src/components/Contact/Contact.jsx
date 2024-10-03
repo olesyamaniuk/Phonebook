@@ -23,7 +23,7 @@ export default function Contact({ data, onDelete }) {
           </div>
           <div className={css.button} >
             <img src={deleteIcon} alt="Phone Icon" className={css.btn} />
-            <button onClick={handleDelete}>Delete</button>
+            <button type="button" onClick={handleDelete}>Delete</button>
           </div>
         </div>
     </div>
